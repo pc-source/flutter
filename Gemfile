@@ -8,6 +8,7 @@ gem 'bootstrap-sass', '~> 3.3.7'
 gem 'rails', '4.1.6'
 # heroku pre-req
 gem 'rails_12factor', group: :production # dont use locally but only for heroku
+gem 'pg'
 # Use SCSS for stylesheets
 # gem 'sass-rails', '~> 5.0.6'
 gem "fog"
