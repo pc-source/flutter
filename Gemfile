@@ -1,12 +1,13 @@
 source 'https://rubygems.org'
+ruby "2.1.2"
 # devise
 gem 'devise'
 # bootstrap
 gem 'bootstrap-sass', '~> 3.3.7'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
+# heroku pre-req
+gem 'rails_12factor', group: :production # dont use locally but only for heroku
 # Use SCSS for stylesheets
 # gem 'sass-rails', '~> 5.0.6'
 
